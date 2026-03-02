@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZEEMOVE_LEGAL }}
           channelId: live
           projectId: zeemove-legal
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
