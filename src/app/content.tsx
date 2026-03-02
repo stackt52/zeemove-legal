@@ -293,7 +293,7 @@ const Content: React.FC = () => {
             <span className="text-xl font-bold tracking-tight text-slate-900 uppercase">ZeeMove</span>
           </div>
           <div className="hidden md:flex items-center text-xs font-semibold text-slate-400 uppercase tracking-widest">
-            Last Updated: March 2024 (1st Draft)
+            Last Updated: January 2026
           </div>
         </div>
       </header>
