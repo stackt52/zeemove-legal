@@ -1,6 +1,7 @@
 "use client"
 
 import React, {useState, useEffect, ReactNode} from 'react';
+import Link from 'next/link';
 import {
   Shield,
   Building2,
@@ -292,9 +293,11 @@ const Content: React.FC = () => {
             </div>
             <span className="text-xl font-bold tracking-tight text-slate-900 uppercase">ZeeMove</span>
           </div>
-          <div className="hidden md:flex items-center text-xs font-semibold text-slate-400 uppercase tracking-widest">
-            Last Updated: January 2026
-          </div>
+          <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-500">
+            <Link href="/marketing" className="hover:text-blue-600 transition-colors">About the Apps</Link>
+            <Link href="/support" className="hover:text-blue-600 transition-colors">Support</Link>
+            <span className="text-xs text-slate-400 uppercase tracking-widest">Last Updated: January 2026</span>
+          </nav>
         </div>
       </header>
 
@@ -668,7 +671,8 @@ const Content: React.FC = () => {
                 className="mt-16 pt-12 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6 text-slate-400 text-xs font-bold uppercase tracking-widest">
                 <p>&copy; 2026 IHM Southern Africa</p>
                 <div className="flex gap-8">
-                  <a href="#" className="hover:text-blue-600 transition-colors">Terms of Service</a>
+                  <Link href="/marketing" className="hover:text-blue-600 transition-colors">About the Apps</Link>
+                  <Link href="/support" className="hover:text-blue-600 transition-colors">Support</Link>
                 </div>
               </footer>
             </div>
