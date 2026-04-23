@@ -296,6 +296,7 @@ const Content: React.FC = () => {
           <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-500">
             <Link href="/marketing" className="hover:text-blue-600 transition-colors">About the Apps</Link>
             <Link href="/support" className="hover:text-blue-600 transition-colors">Support</Link>
+            <Link href="/zampost-privacy" className="hover:text-blue-600 transition-colors">ZamPost Express Privacy</Link>
             <span className="text-xs text-slate-400 uppercase tracking-widest">Last Updated: January 2026</span>
           </nav>
         </div>
@@ -673,6 +674,7 @@ const Content: React.FC = () => {
                 <div className="flex gap-8">
                   <Link href="/marketing" className="hover:text-blue-600 transition-colors">About the Apps</Link>
                   <Link href="/support" className="hover:text-blue-600 transition-colors">Support</Link>
+                  <Link href="/zampost-privacy" className="hover:text-blue-600 transition-colors">ZamPost Express Privacy</Link>
                 </div>
               </footer>
             </div>
